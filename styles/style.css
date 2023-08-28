@@ -332,5 +332,94 @@
     color: #68837a;
     margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-section {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+    }
+
+    .nav-image {
+        margin-right: 10px;
+        justify-content: center;
+    }
+
+    .nav-section1 {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .searchbar {
+        width: 100%;
+    }
+
+    .textName h1 {
+        margin-left: 0;
+    }
+
+    .section-body {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text1 {
+        margin-bottom: 10px;
+    }
+
+    .text1 img {
+        margin-right: 5px;
+    }
+
+    .list-style .navbar-nav {
+        border-bottom: none;
+    }
+
+    .list-style .nav-item {
+        padding: 5px;
+    }
+
+    .box-section {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .box-section .box1,
+    .box-section .box2,
+    .box-section .box3 {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .chartflow {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .side-bar {
+        flex-basis: 100%;
+        order: 2;
+        margin-top: 0;
+    }
+
+    .copywrite {
+        padding: 10px;
+    }
+
+    .company-logo h1 {
+        font-size: 10px;
+        width: 80px;
+        height: 80px;
+    }
+}
   
   

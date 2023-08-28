@@ -109,38 +109,6 @@
 }
 
 
-/* .list-style ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    border-bottom: 1px solid #68837a;
-    border-right: none;
-  }
-
-  .list-style li {
-    margin: 0;
-    padding: 10px;
-    color: var(--theme-color);
-  }
-
-  .list-style li a {
-    text-decoration: none;
-    color: #68837a;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s ease-in-out;
-  }
-
-  .list-style li a:hover {
-    color: var(--theme-color);
-}
-
-.list-style li.active  a {
-    color: var(--theme-color);
-    padding: 10px;
-    border-bottom: 2px solid #68837a;
-} */
-
 .list-style .navbar-nav {
     list-style-type: none;
     padding: 0;
@@ -214,14 +182,11 @@
 }
 
 .chartflow {
-    /* background-color: #f5f5f5; */
-    /* padding: 20px; */
     margin-top: 10px;
     border: 2px solid #e2e6e5;
     border-radius: 8px;
     order: 1;
     flex-basis: 70%;
-    /* box-sizing: border-box; */
 }
 
 .chartflow .text {
@@ -255,22 +220,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 90px;
-    margin-top: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
 }
 
 .company-logo h1 {
     background-color: black;
     font-size: 8px;
     color: #ebedf0;
-    /* margin-right: 30px; */
+    margin-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 5px solid black;
     width: 100px;
     height: 100px;
-    text-align: center;
 }
 
 
@@ -346,12 +310,8 @@
     margin: 0;
 }
 
-@media screen and (max-width: 767px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
+@media screen and (max-width: 1023px) {
 
     .nav-section {
         width: 100%;
@@ -360,21 +320,13 @@
         display: flex;
     }
 
-    .nav-image {
-        margin-right: 10px;
-        justify-content: center;
-    }
-
     .nav-section1 {
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
+        justify-content: center;
         margin-top: 10px;
     }
 
-    .searchbar {
-        width: 100%;
-    }
 
     .textName h1 {
         margin-left: 0;
@@ -414,28 +366,14 @@
         padding-right: 0;
     }
 
-    .box-section .box1 h1,
-    .box-section .box2 h1,
-    .box-section .box3 h1,
-    .box-section .box4 h1 {
+    .box-section h1,
+    .box-section p {
         font-size: 14px;
         text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .box-section .box1 p,
-    .box-section .box2 p,
-    .box-section .box3 p,
-    .box-section .box4 p{
-        font-size: 10px;
-        text-align: center;
-        text-decoration: none;
     }
 
     .chartflow {
         margin-top: 10px;
-        padding: 10px;
     }
 
     .side-bar {
@@ -446,18 +384,15 @@
         margin-top: 0;
     }
 
-    .copywrite {
-        padding: 10px;
-    }
-
     .company-logo {
         padding-left: 0px;
     }
 
     .company-logo h1 {
-        /* justify-content: center; */
         font-size: 9px;
         width: 80px;
         height: 80px;
     }
+
+    /* Other adjustments as needed */
 }

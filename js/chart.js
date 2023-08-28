@@ -1,4 +1,3 @@
-
 new Chart(document.getElementById("lineChart"), {
     type: 'line',
     data: {

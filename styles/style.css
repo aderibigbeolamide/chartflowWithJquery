@@ -318,6 +318,9 @@
         margin: 0;
         padding: 10px;
         display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center; /* Center horizontally */
     }
 
     .nav-section1 {
@@ -327,14 +330,13 @@
         margin-top: 10px;
     }
 
-
     .textName h1 {
         margin-left: 0;
     }
 
     .section-body {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center; /* Center horizontally */
     }
 
     .text1 {
@@ -354,16 +356,16 @@
     }
 
     .box-section {
+        display: flex;
         margin-top: 10px;
         padding: 10px;
+        align-items: center;
     }
 
     .box-section .box1,
     .box-section .box2,
     .box-section .box3 {
-        padding-right: 40px;
         border-right: 2px solid #e2e6e5;
-        padding-right: 0;
     }
 
     .box-section h1,
@@ -373,6 +375,7 @@
     }
 
     .chartflow {
+        align-items: center;
         margin-top: 10px;
     }
 
@@ -382,6 +385,7 @@
         flex-basis: 100%;
         order: 2;
         margin-top: 0;
+        align-items: center;
     }
 
     .company-logo {

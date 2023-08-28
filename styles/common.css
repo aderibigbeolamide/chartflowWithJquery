@@ -1,0 +1,30 @@
+:root{
+    --theme-color: #15533e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container{
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.body{
+    padding: 10px 30px;
+}
+
+.button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2390f6;
+    color: white;
+    cursor: pointer;
+}

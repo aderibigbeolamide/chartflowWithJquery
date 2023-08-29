@@ -76,7 +76,7 @@
   color: #144534;
 }
 
-/* ************************************************ */
+
 
 .page-container .arrow-logo {
   display: flex;
@@ -102,17 +102,17 @@ a {
   margin-bottom: 100px;
 }
 
-.page-container .body-text .tab-content {
+.page-container .body-text .table-box {
   display: flex;
   flex-direction: row;
   gap: 56px;
 }
 
-.main-tab-content {
+.main-table-box {
   flex: 3;
 }
 
-.aside-tab-content {
+.sidebar-table-box {
   flex: 1;
 }
 
@@ -158,7 +158,7 @@ a {
 
 
 
-.page-container .body-text .summary-grid {
+.page-container .body-text .text-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border: 1px solid rgba(119, 119, 119, 0.2);
@@ -169,31 +169,31 @@ a {
   margin-bottom: 20px;
 }
 
-.page-container .body-text .summary-grid .divider {
+.page-container .body-text .text-box .divider {
   width: 1px;
   height: 52px;
   background-color: rgba(119, 119, 119, 0.2);
   display: block;
 }
 
-.page-container .body-text .summary-grid div {
+.page-container .body-text .text-box div {
   text-align: center;
 }
 
-.page-container .body-text .summary-grid div:nth-child(1),
-.page-container .body-text .summary-grid div:nth-child(2),
-.page-container .body-text .summary-grid div:nth-child(3) {
+.page-container .body-text .text-box div:nth-child(1),
+.page-container .body-text .text-box div:nth-child(2),
+.page-container .body-text .text-box div:nth-child(3) {
   border-right: 1px solid rgba(119, 119, 119, 0.2);
 }
 
-.page-container .body-text .summary-grid div h3 {
+.page-container .body-text .text-box div h3 {
   font-size: 24px;
   font-family: serif !important;
   color: #144534;
   margin-bottom: 4px;
 }
 
-.page-container .body-text .summary-grid div p {
+.page-container .body-text .text-box div p {
   text-transform: uppercase;
   font-size: 12px !important;
   font-weight: bold;
@@ -202,32 +202,32 @@ a {
 
 
 
-.page-container .body-text .chart {
+.page-container .body-text .chart-box {
   border: 1px solid rgba(119, 119, 119, 0.2);
   border-radius: 12px;
   padding: 24px 20px;
 }
 
-.page-container .body-text .chart .chart-header {
+.page-container .body-text .chart-box .chart-text {
   display: flex;
   justify-content: space-between;
 }
 
-.page-container .body-text .chart .chart-header h2:first-child {
+.page-container .body-text .chart-box .chart-text h2:first-child {
   font-weight: 700;
   color: #144534;
 }
 
-.page-container .body-text .chart .chart-header h2:last-child {
+.page-container .body-text .chart-box .chart-text h2:last-child {
   font-weight: 300;
 }
 
 
-.page-container .body-text .tab-content .aside-tab-content img {
+.page-container .body-text .table-box .sidebar-table-box img {
   margin-bottom: 12px;
 }
 
-.page-container .body-text .tab-content .aside-tab-content span {
+.page-container .body-text .table-box .sidebar-table-box span {
   font-size: 12px;
   color: #777777;
   margin-bottom: 8px;
@@ -236,26 +236,26 @@ a {
   font-weight: 600;
 }
 
-.page-container .body-text .tab-content .aside-tab-content p {
+.page-container .body-text .table-box .sidebar-table-box p {
   margin-bottom: 20px;
   font-family: serif !important;
   font-weight: 600;
   color: #144534;
 }
 
-.page-container .body-text .tab-content .aside-tab-content hr {
+.page-container .body-text .table-box .sidebar-table-box hr {
   margin: 20px 0;
   background-color: rgba(119, 119, 119, 0.2);
   padding: 0.5px;
   border: 0;
 }
 
-.badge {
+.award {
   display: flex;
   gap: 4px;
 }
 
-.badge img.badge-logo {
+.award img.award-logo {
   width: 32px;
 }
 
@@ -301,19 +301,19 @@ footer p.copyright {
     padding: 18px;
   }
 
-  .page-container .body-text .tab-content {
+  .page-container .body-text .table-box {
     display: flex;
     flex-direction: column;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .page-container .body-text .summary-grid {
+  .page-container .body-text .text-box {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
   }
 
-  .page-container .body-text .summary-grid div:nth-child(2) {
+  .page-container .body-text .text-box div:nth-child(2) {
     border-right: none;
   }
 }
